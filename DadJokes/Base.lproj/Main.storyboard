@@ -80,6 +80,10 @@
                             <constraint firstItem="qkd-pa-RlQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="wwB-OX-t55"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="dadJokeTextView" destination="apD-Mm-eiV" id="sR4-x7-eZs"/>
+                        <outlet property="fetchNextJoke" destination="ihB-Ep-z9k" id="cFT-AY-5Ce"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

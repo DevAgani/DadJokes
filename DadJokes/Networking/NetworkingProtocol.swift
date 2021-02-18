@@ -11,7 +11,7 @@ protocol NetworkProtocol {
     func fetchRandomDadJoke(completionHandler: @escaping (Result<DadJoke, Error>) -> Void)
 }
 
-struct DadJoke {
-    var id: String
-    var joke: String
+struct DadJoke: Codable {
+    var id: String?
+    var joke: String?
 }

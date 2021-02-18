@@ -13,10 +13,10 @@
 		F60A526525DEFE6400CD5E90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F60A526325DEFE6400CD5E90 /* Main.storyboard */; };
 		F60A526725DEFE6600CD5E90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F60A526625DEFE6600CD5E90 /* Assets.xcassets */; };
 		F60A526A25DEFE6600CD5E90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F60A526825DEFE6600CD5E90 /* LaunchScreen.storyboard */; };
-		F60A527525DEFE6600CD5E90 /* DadJokesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60A527425DEFE6600CD5E90 /* DadJokesTests.swift */; };
 		F60A528025DEFE6600CD5E90 /* DadJokesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60A527F25DEFE6600CD5E90 /* DadJokesUITests.swift */; };
 		F60A529525DF079B00CD5E90 /* NetworkingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60A529425DF079B00CD5E90 /* NetworkingProtocol.swift */; };
 		F60A529D25DF08CC00CD5E90 /* ICanHazDadJokeNetworkApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60A529C25DF08CC00CD5E90 /* ICanHazDadJokeNetworkApi.swift */; };
+		F60A52A525DF152800CD5E90 /* ICanHazDadJokeNetworkTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60A52A425DF152800CD5E90 /* ICanHazDadJokeNetworkTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,13 +46,13 @@
 		F60A526925DEFE6600CD5E90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F60A526B25DEFE6600CD5E90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F60A527025DEFE6600CD5E90 /* DadJokesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DadJokesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F60A527425DEFE6600CD5E90 /* DadJokesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadJokesTests.swift; sourceTree = "<group>"; };
 		F60A527625DEFE6600CD5E90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F60A527B25DEFE6600CD5E90 /* DadJokesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DadJokesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F60A527F25DEFE6600CD5E90 /* DadJokesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadJokesUITests.swift; sourceTree = "<group>"; };
 		F60A528125DEFE6600CD5E90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F60A529425DF079B00CD5E90 /* NetworkingProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingProtocol.swift; sourceTree = "<group>"; };
 		F60A529C25DF08CC00CD5E90 /* ICanHazDadJokeNetworkApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICanHazDadJokeNetworkApi.swift; sourceTree = "<group>"; };
+		F60A52A425DF152800CD5E90 /* ICanHazDadJokeNetworkTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICanHazDadJokeNetworkTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,8 +118,8 @@
 		F60A527325DEFE6600CD5E90 /* DadJokesTests */ = {
 			isa = PBXGroup;
 			children = (
-				F60A527425DEFE6600CD5E90 /* DadJokesTests.swift */,
 				F60A527625DEFE6600CD5E90 /* Info.plist */,
+				F60A52A425DF152800CD5E90 /* ICanHazDadJokeNetworkTest.swift */,
 			);
 			path = DadJokesTests;
 			sourceTree = "<group>";
@@ -212,6 +212,7 @@
 					};
 					F60A526F25DEFE6600CD5E90 = {
 						CreatedOnToolsVersion = 12.2;
+						LastSwiftMigration = 1220;
 						TestTargetID = F60A525925DEFE6400CD5E90;
 					};
 					F60A527A25DEFE6600CD5E90 = {
@@ -284,7 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F60A527525DEFE6600CD5E90 /* DadJokesTests.swift in Sources */,
+				F60A52A525DF152800CD5E90 /* ICanHazDadJokeNetworkTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,6 +491,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RAPRN32R23;
 				INFOPLIST_FILE = DadJokesTests/Info.plist;
@@ -501,6 +503,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.aganinyakundi.dadjokes.DadJokesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DadJokes.app/DadJokes";
@@ -512,6 +515,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RAPRN32R23;
 				INFOPLIST_FILE = DadJokesTests/Info.plist;
