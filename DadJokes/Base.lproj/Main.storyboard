@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -20,32 +20,33 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dad Jokes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bwa-78-kGa">
-                                        <rect key="frame" x="35" y="68" width="344" height="36"/>
-                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="26"/>
-                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <rect key="frame" x="45" y="74" width="324" height="53"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="44"/>
+                                        <color key="textColor" red="0.97647058823529409" green="0.72549019607843135" blue="0.27450980392156865" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Ty-Hn-Yp7">
-                                        <rect key="frame" x="35" y="124" width="344" height="537.5"/>
+                                        <rect key="frame" x="35" y="151" width="344" height="537.5"/>
                                         <subviews>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="--" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="apD-Mm-eiV">
-                                                <rect key="frame" x="0.0" y="0.0" width="344" height="537.5"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                <color key="textColor" systemColor="labelColor"/>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" editable="NO" text="--" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="apD-Mm-eiV">
+                                                <rect key="frame" x="10" y="10" width="324" height="517.5"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="21"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstItem="apD-Mm-eiV" firstAttribute="top" secondItem="2Ty-Hn-Yp7" secondAttribute="top" id="11v-Sg-pUt"/>
-                                            <constraint firstItem="apD-Mm-eiV" firstAttribute="leading" secondItem="2Ty-Hn-Yp7" secondAttribute="leading" id="A3Q-7E-QFU"/>
-                                            <constraint firstAttribute="bottom" secondItem="apD-Mm-eiV" secondAttribute="bottom" id="SwO-hC-9di"/>
-                                            <constraint firstAttribute="trailing" secondItem="apD-Mm-eiV" secondAttribute="trailing" id="b6e-NS-ZZM"/>
+                                            <constraint firstItem="apD-Mm-eiV" firstAttribute="top" secondItem="2Ty-Hn-Yp7" secondAttribute="top" constant="10" id="11v-Sg-pUt"/>
+                                            <constraint firstItem="apD-Mm-eiV" firstAttribute="leading" secondItem="2Ty-Hn-Yp7" secondAttribute="leading" constant="10" id="A3Q-7E-QFU"/>
+                                            <constraint firstAttribute="bottom" secondItem="apD-Mm-eiV" secondAttribute="bottom" constant="10" id="SwO-hC-9di"/>
+                                            <constraint firstAttribute="trailing" secondItem="apD-Mm-eiV" secondAttribute="trailing" constant="10" id="b6e-NS-ZZM"/>
                                         </constraints>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ihB-Ep-z9k">
-                                        <rect key="frame" x="35" y="681.5" width="344" height="45"/>
+                                        <rect key="frame" x="45" y="708.5" width="324" height="45"/>
                                         <color key="backgroundColor" red="0.25490196079999999" green="0.80000000000000004" blue="0.54901960780000003" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="45" id="uCJ-mR-GFb"/>
@@ -58,14 +59,14 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.94901960784313721" green="1" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstItem="Bwa-78-kGa" firstAttribute="leading" secondItem="qkd-pa-RlQ" secondAttribute="leading" constant="35" id="6H0-yh-GHV"/>
-                                    <constraint firstAttribute="trailing" secondItem="ihB-Ep-z9k" secondAttribute="trailing" constant="35" id="DcT-n6-k2d"/>
-                                    <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="Bwa-78-kGa" secondAttribute="trailing" constant="35" id="DsF-NQ-h97"/>
-                                    <constraint firstItem="2Ty-Hn-Yp7" firstAttribute="top" secondItem="Bwa-78-kGa" secondAttribute="bottom" constant="20" id="ID9-to-SjD"/>
+                                    <constraint firstItem="Bwa-78-kGa" firstAttribute="leading" secondItem="qkd-pa-RlQ" secondAttribute="leading" constant="45" id="6H0-yh-GHV"/>
+                                    <constraint firstAttribute="trailing" secondItem="ihB-Ep-z9k" secondAttribute="trailing" constant="45" id="DcT-n6-k2d"/>
+                                    <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="Bwa-78-kGa" secondAttribute="trailing" constant="45" id="DsF-NQ-h97"/>
+                                    <constraint firstItem="2Ty-Hn-Yp7" firstAttribute="top" secondItem="Bwa-78-kGa" secondAttribute="bottom" constant="24" id="ID9-to-SjD"/>
                                     <constraint firstAttribute="trailing" secondItem="2Ty-Hn-Yp7" secondAttribute="trailing" constant="35" id="MXb-Ns-t9Q"/>
                                     <constraint firstItem="2Ty-Hn-Yp7" firstAttribute="leading" secondItem="qkd-pa-RlQ" secondAttribute="leading" constant="35" id="Pwu-ht-zXo"/>
                                     <constraint firstItem="ihB-Ep-z9k" firstAttribute="top" secondItem="2Ty-Hn-Yp7" secondAttribute="bottom" constant="20" id="UCm-XL-pVM"/>
-                                    <constraint firstItem="ihB-Ep-z9k" firstAttribute="leading" secondItem="qkd-pa-RlQ" secondAttribute="leading" constant="35" id="bjo-wX-yO9"/>
+                                    <constraint firstItem="ihB-Ep-z9k" firstAttribute="leading" secondItem="qkd-pa-RlQ" secondAttribute="leading" constant="45" id="bjo-wX-yO9"/>
                                     <constraint firstItem="2Ty-Hn-Yp7" firstAttribute="height" secondItem="qkd-pa-RlQ" secondAttribute="height" multiplier="0.6" id="eJL-LE-Z25"/>
                                 </constraints>
                             </view>
@@ -76,13 +77,14 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qkd-pa-RlQ" secondAttribute="trailing" id="6mI-MM-ioK"/>
                             <constraint firstItem="qkd-pa-RlQ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="GNC-n0-caG"/>
                             <constraint firstAttribute="bottom" secondItem="qkd-pa-RlQ" secondAttribute="bottom" id="JkL-39-bi2"/>
-                            <constraint firstItem="Bwa-78-kGa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="24" id="ndC-Dq-f2b"/>
+                            <constraint firstItem="Bwa-78-kGa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="ndC-Dq-f2b"/>
                             <constraint firstItem="qkd-pa-RlQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="wwB-OX-t55"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="dadJokeTextView" destination="apD-Mm-eiV" id="sR4-x7-eZs"/>
                         <outlet property="fetchNextJoke" destination="ihB-Ep-z9k" id="cFT-AY-5Ce"/>
+                        <outlet property="jokeContainerView" destination="apD-Mm-eiV" id="Ec6-JT-RtY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -91,9 +93,6 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="labelColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

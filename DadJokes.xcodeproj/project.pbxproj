@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		678C4BC125DFF4FC004915FD /* UIColor+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678C4BC025DFF4FC004915FD /* UIColor+extensions.swift */; };
 		F60A525E25DEFE6400CD5E90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60A525D25DEFE6400CD5E90 /* AppDelegate.swift */; };
 		F60A526025DEFE6400CD5E90 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60A525F25DEFE6400CD5E90 /* SceneDelegate.swift */; };
 		F60A526225DEFE6400CD5E90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60A526125DEFE6400CD5E90 /* ViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		678C4BC025DFF4FC004915FD /* UIColor+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+extensions.swift"; sourceTree = "<group>"; };
 		F60A525A25DEFE6400CD5E90 /* DadJokes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DadJokes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F60A525D25DEFE6400CD5E90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F60A525F25DEFE6400CD5E90 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		678C4BB125DFEA27004915FD /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				678C4BB225DFEA2E004915FD /* fonts */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		678C4BB225DFEA2E004915FD /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		678C4BBC25DFF499004915FD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				678C4BC025DFF4FC004915FD /* UIColor+extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		F60A525125DEFE6400CD5E90 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +128,8 @@
 		F60A525C25DEFE6400CD5E90 /* DadJokes */ = {
 			isa = PBXGroup;
 			children = (
+				678C4BBC25DFF499004915FD /* Extensions */,
+				678C4BB125DFEA27004915FD /* Assets */,
 				F60A529325DF078B00CD5E90 /* Networking */,
 				F60A525D25DEFE6400CD5E90 /* AppDelegate.swift */,
 				F60A525F25DEFE6400CD5E90 /* SceneDelegate.swift */,
@@ -274,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F60A526225DEFE6400CD5E90 /* ViewController.swift in Sources */,
+				678C4BC125DFF4FC004915FD /* UIColor+extensions.swift in Sources */,
 				F60A529525DF079B00CD5E90 /* NetworkingProtocol.swift in Sources */,
 				F60A529D25DF08CC00CD5E90 /* ICanHazDadJokeNetworkApi.swift in Sources */,
 				F60A525E25DEFE6400CD5E90 /* AppDelegate.swift in Sources */,
